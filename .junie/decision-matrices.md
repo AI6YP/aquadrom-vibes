@@ -20,8 +20,6 @@ Quick reference tables for architectural choices.
 | Defaults | Constants + Joi   | Fallbacks  | Ports, timeouts    |
 | Complex  | Factory functions | Multi-step | Connection strings |
 
-See [nestjs-examples.md](nestjs-examples.md) for code samples.
-
 ## Error Handling
 
 | Type       | Pattern           | When           | Example           |
@@ -119,4 +117,4 @@ See [nestjs-examples.md](nestjs-examples.md) for code samples.
 | I/O     | Connection Pool | DB ops         | High-traffic     |
 | Network | Load Balancing  | High requests  | Public APIs      |
 
-[typescript-guidelines.md](typescript-guidelines.md) | [nestjs-architecture.md](nestjs-architecture.md) | [testing-standards.md](testing-standards.md) | [quick-reference.md](quick-reference.md)
+[typescript-guidelines.md](typescript-guidelines.md) | [testing-standards.md](testing-standards.md) | [quick-reference.md](quick-reference.md)

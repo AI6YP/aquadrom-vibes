@@ -99,4 +99,4 @@ test:
     - npm test
 ```
 
-[typescript-guidelines.md](typescript-guidelines.md) | [nestjs-architecture.md](nestjs-architecture.md) | [quick-reference.md](quick-reference.md) | [post-code-workflow.md](post-code-workflow.md)
+[typescript-guidelines.md](typescript-guidelines.md) | [quick-reference.md](quick-reference.md) | [post-code-workflow.md](post-code-workflow.md)

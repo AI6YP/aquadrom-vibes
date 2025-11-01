@@ -125,4 +125,4 @@ type Result<T, E = Error> = Success<T> | Failure<E>;
 - Prefer **const objects** over enums
 - Enable all strict flags
 
-[nestjs-architecture.md](nestjs-architecture.md) | [nestjs-examples.md](nestjs-examples.md) | [testing-standards.md](testing-standards.md) | [quick-reference.md](quick-reference.md) | [design-principles.md](design-principles.md)
+[testing-standards.md](testing-standards.md) | [quick-reference.md](quick-reference.md) | [design-principles.md](design-principles.md)

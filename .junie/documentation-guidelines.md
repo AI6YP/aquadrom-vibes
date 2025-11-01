@@ -26,13 +26,6 @@ Space-aligned for consistent rendering:
 
 ```markdown
 [TypeScript Guidelines](./typescript-guidelines.md)
-[NestJS Architecture](./nestjs-architecture.md#module-structure)
-```
-
-**Link to sections**:
-
-```markdown
-See [forRoot Pattern](./nestjs-architecture.md#use-forroot-pattern)
 ```
 
 ## Structure
@@ -101,4 +94,4 @@ const config = {
 - `cspell` - Spelling
 - Automated table alignment
 
-[typescript-guidelines.md](typescript-guidelines.md) | [nestjs-architecture.md](nestjs-architecture.md) | [testing-standards.md](testing-standards.md) | [operational-rules.md](operational-rules.md) | [quick-reference.md](quick-reference.md)
+[typescript-guidelines.md](typescript-guidelines.md) | [testing-standards.md](testing-standards.md) | [operational-rules.md](operational-rules.md) | [quick-reference.md](quick-reference.md)

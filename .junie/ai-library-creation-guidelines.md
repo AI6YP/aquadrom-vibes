@@ -1,6 +1,6 @@
 # AI Library Creation Guidelines
 
-Production-ready library development patterns. Uses [design-principles.md](design-principles.md), [typescript-guidelines.md](typescript-guidelines.md), [nestjs-architecture.md](nestjs-architecture.md).
+Production-ready library development patterns. Uses [design-principles.md](design-principles.md), [typescript-guidelines.md](typescript-guidelines.md).
 
 ## Core Principles
 
@@ -289,4 +289,4 @@ class Old {
 | Coverage Target   | 80%+           | Production quality          |
 | TypeScript Mode   | Strict         | Catch errors early          |
 
-[typescript-guidelines.md](typescript-guidelines.md) | [nestjs-architecture.md](nestjs-architecture.md) | [testing-standards.md](testing-standards.md) | [documentation-guidelines.md](documentation-guidelines.md) | [design-principles.md](design-principles.md)
+[typescript-guidelines.md](typescript-guidelines.md) | [testing-standards.md](testing-standards.md) | [documentation-guidelines.md](documentation-guidelines.md) | [design-principles.md](design-principles.md)

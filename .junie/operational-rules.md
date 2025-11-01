@@ -14,7 +14,7 @@ Follow [design-principles.md](design-principles.md) for all code.
 
 1. Reproduce issues with scripts
 2. Write/run tests (80%+ coverage, AAA pattern)
-3. Respect module boundaries → [nestjs-architecture.md](nestjs-architecture.md)
+3. Respect module boundaries
 4. Small functions (< 20 instructions)
 5. Run [post-code-workflow.md](post-code-workflow.md)
 
@@ -28,12 +28,9 @@ Follow [design-principles.md](design-principles.md) for all code.
 
 | Need     | Solution           | Ref                                                  |
 | -------- | ------------------ | ---------------------------------------------------- |
-| Config   | ConfigModule       | [nestjs-architecture.md](nestjs-architecture.md)     |
-| Data     | Repository Pattern | [nestjs-architecture.md](nestjs-architecture.md)     |
 | Errors   | Result Pattern     | [typescript-guidelines.md](typescript-guidelines.md) |
 | Types    | Branded Types      | [typescript-guidelines.md](typescript-guidelines.md) |
 | Tests    | AAA Pattern        | [testing-standards.md](testing-standards.md)         |
-| Examples | Code Samples       | [nestjs-examples.md](nestjs-examples.md)             |
 
 ## Common Workflows
 
@@ -41,4 +38,4 @@ Follow [design-principles.md](design-principles.md) for all code.
 **Bug Fix**: Reproduce → Fix → Regression test → [post-code-workflow.md](post-code-workflow.md)  
 **Refactor**: Ensure tests → Incremental changes → Test after each
 
-[prompt.md](prompt.md) | [typescript-guidelines.md](typescript-guidelines.md) | [nestjs-architecture.md](nestjs-architecture.md) | [testing-standards.md](testing-standards.md) | [design-principles.md](design-principles.md) | [quick-reference.md](quick-reference.md)
+[prompt.md](prompt.md) | [typescript-guidelines.md](typescript-guidelines.md) | [testing-standards.md](testing-standards.md) | [design-principles.md](design-principles.md) | [quick-reference.md](quick-reference.md)

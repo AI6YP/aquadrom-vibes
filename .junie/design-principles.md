@@ -725,6 +725,5 @@ When applying principles, follow this order:
 **Cross-References:**
 
 - [Software Architect Guidelines](prompt-software-architect.md)
-- [NestJS Architecture Patterns](nestjs-architecture.md)
 - [TypeScript Guidelines](typescript-guidelines.md)
 - [Code Review Standards](operational-rules.md)
