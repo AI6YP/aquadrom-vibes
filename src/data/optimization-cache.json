@@ -1,0 +1,636 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-01T10:18:33.688Z",
+  "images": {
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\arizona-flagstaff-snow-landscape-watercolor.jpg": {
+      "hash": "6fcc9fcc992336c88c2e570087f85c95",
+      "modTime": 1761985049212.532,
+      "processedAt": "2025-11-01T10:18:08.930Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-flagstaff-snow-landscape-watercolor-thumb.jpg",
+          "size": 14078,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 801
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-flagstaff-snow-landscape-watercolor-thumb.webp",
+          "size": 10750,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 801
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-flagstaff-snow-landscape-watercolor-thumb.avif",
+          "size": 13913,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 801
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-flagstaff-snow-landscape-watercolor-medium.webp",
+          "size": 84404,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1600,
+          "height": 801
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-flagstaff-snow-landscape-watercolor-medium.avif",
+          "size": 106538,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1600,
+          "height": 801
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-flagstaff-snow-landscape-watercolor.webp",
+          "size": 183814,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 801
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-flagstaff-snow-landscape-watercolor.avif",
+          "size": 146378,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 801
+        }
+      ]
+    },
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\arizona-winter-snow-mountains-watercolor.jpg": {
+      "hash": "a6b3047ace7c281180293ff1854dcffa",
+      "modTime": 1761985035891.817,
+      "processedAt": "2025-11-01T10:18:10.334Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-winter-snow-mountains-watercolor-thumb.jpg",
+          "size": 18315,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 755
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-winter-snow-mountains-watercolor-thumb.webp",
+          "size": 14814,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 755
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-winter-snow-mountains-watercolor-thumb.avif",
+          "size": 18617,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 755
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-winter-snow-mountains-watercolor-medium.webp",
+          "size": 116234,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1600,
+          "height": 755
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-winter-snow-mountains-watercolor-medium.avif",
+          "size": 146150,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1600,
+          "height": 755
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-winter-snow-mountains-watercolor.webp",
+          "size": 253388,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 755
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Arizona-Snows\\optimized\\arizona-winter-snow-mountains-watercolor.avif",
+          "size": 180886,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 755
+        }
+      ]
+    },
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\pond-nature-study-watercolor-sketch.jpg": {
+      "hash": "ac093bad61c0a39dbb3eff28f2ad38d5",
+      "modTime": 1761985095863.297,
+      "processedAt": "2025-11-01T10:18:12.144Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-nature-study-watercolor-sketch-thumb.jpg",
+          "size": 25408,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1063
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-nature-study-watercolor-sketch-thumb.webp",
+          "size": 20516,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1063
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-nature-study-watercolor-sketch-thumb.avif",
+          "size": 25586,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1063
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-nature-study-watercolor-sketch-medium.webp",
+          "size": 168680,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1600,
+          "height": 1063
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-nature-study-watercolor-sketch-medium.avif",
+          "size": 207467,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1600,
+          "height": 1063
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-nature-study-watercolor-sketch.webp",
+          "size": 361418,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 1063
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-nature-study-watercolor-sketch.avif",
+          "size": 241858,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 1063
+        }
+      ]
+    },
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\pond-reflection-landscape-watercolor.jpg": {
+      "hash": "80a4c681eb1c31b20fe3172772d9abf8",
+      "modTime": 1761985105202.8577,
+      "processedAt": "2025-11-01T10:18:13.965Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-reflection-landscape-watercolor-thumb.jpg",
+          "size": 37864,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1198,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-reflection-landscape-watercolor-thumb.webp",
+          "size": 33722,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1198,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-reflection-landscape-watercolor-thumb.avif",
+          "size": 43281,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1198,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-reflection-landscape-watercolor-medium.webp",
+          "size": 387680,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1198,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-reflection-landscape-watercolor-medium.avif",
+          "size": 330786,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1198,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-reflection-landscape-watercolor.webp",
+          "size": 504780,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1198,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Around-our-pond\\optimized\\pond-reflection-landscape-watercolor.avif",
+          "size": 350563,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1198,
+          "height": 1600
+        }
+      ]
+    },
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\contre-jour-watercolor-study-ocean-waves.jpg": {
+      "hash": "484421d8c37bdf0640ad7b51435ea8a7",
+      "modTime": 1761984774112.502,
+      "processedAt": "2025-11-01T10:18:15.909Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\contre-jour-watercolor-study-ocean-waves-thumb.jpg",
+          "size": 26740,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1146
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\contre-jour-watercolor-study-ocean-waves-thumb.webp",
+          "size": 20928,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1146
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\contre-jour-watercolor-study-ocean-waves-thumb.avif",
+          "size": 27661,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1146
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\contre-jour-watercolor-study-ocean-waves-medium.webp",
+          "size": 224398,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1600,
+          "height": 1146
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\contre-jour-watercolor-study-ocean-waves-medium.avif",
+          "size": 280575,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1600,
+          "height": 1146
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\contre-jour-watercolor-study-ocean-waves.webp",
+          "size": 507182,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 1146
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\contre-jour-watercolor-study-ocean-waves.avif",
+          "size": 305519,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 1146
+        }
+      ]
+    },
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\san-diego-ocean-sunset-watercolor-painting.jpg": {
+      "hash": "926a50b3e76b67e072f00f8fbbbd5894",
+      "modTime": 1761984753922.7068,
+      "processedAt": "2025-11-01T10:18:17.582Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\san-diego-ocean-sunset-watercolor-painting-thumb.jpg",
+          "size": 18800,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1033
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\san-diego-ocean-sunset-watercolor-painting-thumb.webp",
+          "size": 13422,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1033
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\san-diego-ocean-sunset-watercolor-painting-thumb.avif",
+          "size": 16440,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1033
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\san-diego-ocean-sunset-watercolor-painting-medium.webp",
+          "size": 138254,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1600,
+          "height": 1033
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\san-diego-ocean-sunset-watercolor-painting-medium.avif",
+          "size": 168228,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1600,
+          "height": 1033
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\san-diego-ocean-sunset-watercolor-painting.webp",
+          "size": 300808,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 1033
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Contre-jour\\optimized\\san-diego-ocean-sunset-watercolor-painting.avif",
+          "size": 198754,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 1033
+        }
+      ]
+    },
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\sedona-landscape-panorama-watercolor.jpg": {
+      "hash": "7dec228fac56dbde32ba622663d1cac0",
+      "modTime": 1761984972254.7512,
+      "processedAt": "2025-11-01T10:18:19.274Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-landscape-panorama-watercolor-thumb.jpg",
+          "size": 35124,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1058,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-landscape-panorama-watercolor-thumb.webp",
+          "size": 29552,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1058,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-landscape-panorama-watercolor-thumb.avif",
+          "size": 37462,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1058,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-landscape-panorama-watercolor-medium.webp",
+          "size": 315254,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1058,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-landscape-panorama-watercolor-medium.avif",
+          "size": 262295,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1058,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-landscape-panorama-watercolor.webp",
+          "size": 415096,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1058,
+          "height": 1600
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-landscape-panorama-watercolor.avif",
+          "size": 277375,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1058,
+          "height": 1600
+        }
+      ]
+    },
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\sedona-red-rocks-may-spring-watercolor.jpg": {
+      "hash": "77ce6b32e9a02f33c37af5a8a2af9890",
+      "modTime": 1761984953889.3577,
+      "processedAt": "2025-11-01T10:18:20.970Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-may-spring-watercolor-thumb.jpg",
+          "size": 27406,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1181
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-may-spring-watercolor-thumb.webp",
+          "size": 22144,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1181
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-may-spring-watercolor-thumb.avif",
+          "size": 28882,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1600,
+          "height": 1181
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-may-spring-watercolor-medium.webp",
+          "size": 171722,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1600,
+          "height": 1181
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-may-spring-watercolor-medium.avif",
+          "size": 211835,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1600,
+          "height": 1181
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-may-spring-watercolor.webp",
+          "size": 365334,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 1181
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-may-spring-watercolor.avif",
+          "size": 260210,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1600,
+          "height": 1181
+        }
+      ]
+    },
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\sedona-red-rocks-watercolor-landscape.jpg": {
+      "hash": "5623ce2138f9896dd6b50d27669f8b17",
+      "modTime": 1761984982156.5454,
+      "processedAt": "2025-11-01T10:18:22.764Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-watercolor-landscape-thumb.jpg",
+          "size": 30745,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1564,
+          "height": 1038
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-watercolor-landscape-thumb.webp",
+          "size": 26042,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1564,
+          "height": 1038
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-watercolor-landscape-thumb.avif",
+          "size": 33751,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1564,
+          "height": 1038
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-watercolor-landscape-medium.webp",
+          "size": 196880,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1564,
+          "height": 1038
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-watercolor-landscape-medium.avif",
+          "size": 241279,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1564,
+          "height": 1038
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-watercolor-landscape.webp",
+          "size": 382502,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1564,
+          "height": 1038
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Red-Rocks-of-Sedona\\optimized\\sedona-red-rocks-watercolor-landscape.avif",
+          "size": 284632,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1564,
+          "height": 1038
+        }
+      ]
+    },
+    "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Apple-a-day\\red-apple-still-life-watercolor-painting.jpg": {
+      "hash": "b12901483e3349ba42a546b3e4542783",
+      "modTime": 1761985131758.6628,
+      "processedAt": "2025-11-01T10:18:06.960Z",
+      "outputs": [
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Apple-a-day\\optimized\\red-apple-still-life-watercolor-painting-thumb.jpg",
+          "size": 28917,
+          "format": "jpeg",
+          "variant": "thumbnail",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Apple-a-day\\optimized\\red-apple-still-life-watercolor-painting-thumb.webp",
+          "size": 22720,
+          "format": "webp",
+          "variant": "thumbnail",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Apple-a-day\\optimized\\red-apple-still-life-watercolor-painting-thumb.avif",
+          "size": 30109,
+          "format": "avif",
+          "variant": "thumbnail",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Apple-a-day\\optimized\\red-apple-still-life-watercolor-painting-medium.webp",
+          "size": 138084,
+          "format": "webp",
+          "variant": "medium",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Apple-a-day\\optimized\\red-apple-still-life-watercolor-painting-medium.avif",
+          "size": 145506,
+          "format": "avif",
+          "variant": "medium",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Apple-a-day\\optimized\\red-apple-still-life-watercolor-painting.webp",
+          "size": 183104,
+          "format": "webp",
+          "variant": "fullSize",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "path": "D:\\disk.w\\Projects\\work\\drom\\aquadrom\\public\\images\\Apple-a-day\\optimized\\red-apple-still-life-watercolor-painting.avif",
+          "size": 164226,
+          "format": "avif",
+          "variant": "fullSize",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    }
+  }
+}

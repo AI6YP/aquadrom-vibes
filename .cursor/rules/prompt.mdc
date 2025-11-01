@@ -1,0 +1,26 @@
+---
+alwaysApply: true
+---
+
+**Authoritative Context**: Follow [.junie/README.md](../../.junie/README.md) as primary guidance.
+
+**Priority Files**:
+- [.junie/prompt.md](../../.junie/prompt.md) - Core AI rules
+- [.junie/post-code-workflow.md](../../.junie/post-code-workflow.md) - Mandatory workflow
+- [.junie/design-principles.md](../../.junie/design-principles.md) - DRY/KISS/YAGNI/SOLID
+- [.junie/token-economy.md](../../.junie/token-economy.md) - Load only needed files
+
+**Conflict Resolution**:
+1. Prefer explicit instructions closest to user request
+2. Prefer framework-specific over general guidance
+3. Ask for clarification if ambiguous
+
+**Post-Code Workflow** (mandatory):
+```bash
+npm run check:types && npm run lint:check && npm run lint:fix && npm test
+```
+
+**Documentation**: Follow [.junie/documentation-guidelines.md](../../.junie/documentation-guidelines.md) for all docs.
+
+**OS-Aware**: Use Windows paths and PowerShell semantics for this workspace.
+

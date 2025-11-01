@@ -1,0 +1,60 @@
+{
+  "site": {
+    "title": "AquaDrom",
+    "subtitle": "World in watercolors",
+    "description": "Dmitry Romanov watercolor gallery: seascapes, desert landscapes, still life. Contre-jour technique, plein air, nature sketches.",
+    "keywords": "watercolor, gallery, landscape, seascape, still life, Dmitry Romanov, contre-jour, plein air",
+    "author": "Dmitry Romanov",
+    "copyright": "© {{year}} {{author}}. All rights reserved.",
+    "techNote": "Built with ONML"
+  },
+  "nav": {
+    "works": "Works",
+    "about": "About Me",
+    "blog": "Blog",
+    "contacts": "Contacts"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "categories": "Categories",
+    "year": "Year:",
+    "allYears": "All years",
+    "sold": "SOLD",
+    "soldText": "SOLD"
+  },
+  "categories": {
+    "all": "All Works",
+    "seascape": "Seascape",
+    "landscape": "Landscapes",
+    "stillLife": "Still Life"
+  },
+  "blog": {
+    "title": "Blog"
+  },
+  "about": {
+    "title": "About Me",
+    "text1": "Hi! I've been doing watercolors for many years. Most of all I love to paint water - ocean, sea, rivers. There is something magical in trying to capture the movement of water with watercolors.",
+    "text2": "I live in America, but my soul often returns to seascapes. Each wave is a new story, a new challenge.",
+    "text3": "Here I collect my work and share thoughts about the creative process."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "email": "Email",
+    "social": "Social Media"
+  },
+  "meta": {
+    "pageTitle": "AquaDrom — Watercolor Gallery | Seascapes and Plein Air",
+    "description": "Dmitry Romanov watercolor gallery: seascapes in contre-jour technique, Arizona and Sedona desert landscapes, still life. Plein air painting and nature sketches.",
+    "keywords": "watercolor, gallery, watercolor painting, seascape, contre-jour, desert landscape, Sedona, Arizona, still life, plein air, Dmitry Romanov",
+    "authorJobTitle": "Watercolor Artist",
+    "blogDescription": "Articles about watercolor painting techniques",
+    "blogTitle": "AquaDrom Blog",
+    "galleryName": "AquaDrom Watercolor Gallery"
+  },
+  "aria": {
+    "toggleDarkMode": "Toggle dark mode",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next"
+  }
+}

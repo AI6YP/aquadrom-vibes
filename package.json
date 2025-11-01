@@ -1,0 +1,41 @@
+{
+  "name": "aquadrom-gallery",
+  "version": "1.0.0",
+  "description": "Modern art gallery for AquaDrom watercolors",
+  "type": "module",
+  "scripts": {
+    "clean": "node scripts/clean.js",
+    "dev": "node scripts/build.js && node scripts/server.js",
+    "build": "node scripts/build.js && node scripts/generate-seo-files.js",
+    "serve": "node scripts/server.js",
+    "optimize-images": "node scripts/optimize-images.js",
+    "optimize-images:force": "node scripts/optimize-images.js --force",
+    "optimize-images:dry-run": "node scripts/optimize-images.js --dry-run",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "gallery",
+    "art",
+    "watercolor",
+    "onml"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "i18next": "^25.6.0",
+    "onml": "^2.1.0",
+    "sharp": "^0.34.4"
+  },
+  "devDependencies": {
+    "@drom/eslint-config": "^1.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2"
+  }
+}

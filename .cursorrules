@@ -1,0 +1,43 @@
+# AI Agent Behavior Rules
+
+**Primary**: [.junie/README.md](.junie/README.md) | [.junie/prompt.md](.junie/prompt.md)
+
+## Core Rules
+
+1. **Plan First**: Use todo_write for 3+ step tasks
+2. **Apply Design Principles**: [.junie/design-principles.md](.junie/design-principles.md) - DRY/KISS/YAGNI/SOLID
+3. **Follow Workflow**: [.junie/post-code-workflow.md](.junie/post-code-workflow.md) after code changes
+
+## Priority Files
+
+**Essential**: [prompt.md](.junie/prompt.md) | [quick-reference.md](.junie/quick-reference.md) | [post-code-workflow.md](.junie/post-code-workflow.md)  
+**Framework**: [typescript-guidelines.md](.junie/typescript-guidelines.md) | [nestjs-architecture.md](.junie/nestjs-architecture.md) | [testing-standards.md](.junie/testing-standards.md)  
+**Advanced**: [operational-rules.md](.junie/operational-rules.md) | [prompt-software-architect.md](.junie/prompt-software-architect.md) | [decision-matrices.md](.junie/decision-matrices.md)
+
+## Tool Usage
+
+- Specialized tools > terminal commands
+- Batch parallel operations
+- Load only needed files → [.junie/token-economy.md](.junie/token-economy.md)
+
+## Design Principles Quick Ref
+
+**DRY**: Eliminate duplication  
+**KISS**: Keep it simple  
+**YAGNI**: Build only what's needed  
+**SOLID**: SRP, OCP, LSP, ISP, DIP
+
+[Full details](.junie/design-principles.md)
+
+## Code Review Checklist
+
+**Pre**: Understand patterns, check dependencies, assess impact  
+**Post**: Verify principles, consistency, tests, docs
+
+**Refactor if**: Duplication (3+ places), complex functions (>30 lines), multiple responsibilities, tight coupling
+
+[Details](.junie/design-principles.md)
+
+---
+
+**Complete guidance**: [.junie/README.md](.junie/README.md)

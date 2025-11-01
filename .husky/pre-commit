@@ -1,0 +1,30 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Pre-commit quality checks
+echo "🔍 Running pre-commit checks..."
+
+# 1. Run ESLint
+echo "\n📋 Checking code quality (ESLint)..."
+npm run lint || {
+  echo "❌ ESLint failed. Please fix the errors before committing."
+  exit 1
+}
+
+# 2. Run Prettier check
+echo "\n✨ Checking code formatting (Prettier)..."
+npm run format:check || {
+  echo "❌ Code formatting check failed. Running auto-format..."
+  npm run format
+  echo "✅ Code formatted. Please review changes and commit again."
+  exit 1
+}
+
+# 3. Build check (ensures i18next and all modules work)
+echo "\n🏗️  Testing build..."
+npm run build || {
+  echo "❌ Build failed. Please fix build errors before committing."
+  exit 1
+}
+
+echo "\n✅ All pre-commit checks passed!"

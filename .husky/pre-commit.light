@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Lightweight pre-commit checks
+echo "🔍 Running pre-commit checks (light)..."
+
+# 1. Run ESLint
+echo "\n📋 Linting..."
+npm run lint || exit 1
+
+# 2. Run Prettier check with auto-fix
+echo "\n✨ Formatting..."
+npm run format:check || {
+  npm run format
+  echo "⚠️  Code was auto-formatted. Please review and commit again."
+  exit 1
+}
+
+echo "\n✅ Pre-commit checks passed!"
+
