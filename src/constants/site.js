@@ -5,14 +5,14 @@
 'use strict';
 
 export const SITE_NAME = 'AquaDrom';
-export const SITE_URL = 'https://aquadrom.art';
+export const SITE_URL = 'https://aqua.drom.io';
 export const SITE_DEFAULT_IMAGE_PATH =
   '/images/contre-jour-watercolor-study-ocean-waves.jpg';
 export const SITE_DEFAULT_IMAGE_URL = `${SITE_URL}${SITE_DEFAULT_IMAGE_PATH}`;
 
 export const SITE_SOCIAL_HANDLES = {
-  twitter: '@aquadrom',
-  facebook: 'aquadrom',
+  twitter: '@wavedrom',
+  instagram: '@wavedrom'
 };
 
 export const LANGUAGE_LOCALES = {

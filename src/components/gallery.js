@@ -65,17 +65,17 @@ export function createGalleryItem(item, lang = 'ru') {
  */
 export function createCategoryFilter(lang = 'ru') {
   const t = getTranslator(lang);
-  
+
   // Dynamically get categories from gallery items
   const uniqueCategories = [...new Set(galleryItems.map((item) => item.category))];
-  
+
   // Map category slugs to i18n keys
   const categoryToI18nKey = {
     'seascape': 'seascape',
     'landscape': 'landscape',
     'still-life': 'stillLife',
   };
-  
+
   // Build category buttons dynamically
   const buttons = [
     // Always include "all" button
