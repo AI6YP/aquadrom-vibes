@@ -5,10 +5,16 @@
 
 'use strict';
 
-import {existsSync, mkdirSync, readdirSync, statSync,} from 'fs';
-import {basename, dirname, join} from 'path';
+import { existsSync, mkdirSync, readdirSync, statSync } from 'fs';
+import { basename, dirname, join } from 'path';
 import sharp from 'sharp';
-import {config, getOptimizedFilename, getOrientation, getThumbnailWidth, shouldSkipFile,} from './image-config.js';
+import {
+  config,
+  getOptimizedFilename,
+  getOrientation,
+  getThumbnailWidth,
+  shouldSkipFile,
+} from './image-config.js';
 import {
   cleanStaleEntries,
   getCacheStats,
@@ -58,7 +64,7 @@ function log(message, level = 'info') {
 function ensureDir(dir) {
   if (!existsSync(dir)) {
     if (!isDryRun) {
-      mkdirSync(dir, {recursive: true});
+      mkdirSync(dir, { recursive: true });
     }
     log(`📁 Created directory: ${dir}`);
   }
@@ -329,10 +335,10 @@ function printStats() {
   ).toFixed(2);
   const savedPercent = stats.originalSize
     ? (
-      ((stats.originalSize - stats.optimizedSize / stats.totalOutputs) /
-        stats.originalSize) *
-      100
-    ).toFixed(1)
+        ((stats.originalSize - stats.optimizedSize / stats.totalOutputs) /
+          stats.originalSize) *
+        100
+      ).toFixed(1)
     : 0;
 
   console.log('\n' + '='.repeat(60));

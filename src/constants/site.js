@@ -12,7 +12,7 @@ export const SITE_DEFAULT_IMAGE_URL = `${SITE_URL}${SITE_DEFAULT_IMAGE_PATH}`;
 
 export const SITE_SOCIAL_HANDLES = {
   twitter: '@wavedrom',
-  instagram: '@wavedrom'
+  instagram: '@wavedrom',
 };
 
 export const LANGUAGE_LOCALES = {

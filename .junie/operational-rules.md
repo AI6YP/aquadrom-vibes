@@ -26,11 +26,11 @@ Follow [design-principles.md](design-principles.md) for all code.
 
 ## Quick Patterns
 
-| Need     | Solution           | Ref                                                  |
-| -------- | ------------------ | ---------------------------------------------------- |
-| Errors   | Result Pattern     | [typescript-guidelines.md](typescript-guidelines.md) |
-| Types    | Branded Types      | [typescript-guidelines.md](typescript-guidelines.md) |
-| Tests    | AAA Pattern        | [testing-standards.md](testing-standards.md)         |
+| Need   | Solution       | Ref                                                  |
+| ------ | -------------- | ---------------------------------------------------- |
+| Errors | Result Pattern | [typescript-guidelines.md](typescript-guidelines.md) |
+| Types  | Branded Types  | [typescript-guidelines.md](typescript-guidelines.md) |
+| Tests  | AAA Pattern    | [testing-standards.md](testing-standards.md)         |
 
 ## Common Workflows
 

@@ -5,9 +5,9 @@
 
 'use strict';
 
-import {existsSync, readFileSync} from 'fs';
-import {dirname, join} from 'path';
-import {fileURLToPath} from 'url';
+import { existsSync, readFileSync } from 'fs';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..', '..'); // Go up from src/utils to project root
@@ -31,7 +31,7 @@ function loadCache() {
     console.warn('Failed to load optimization cache:', error.message);
   }
 
-  return {images: {}};
+  return { images: {} };
 }
 
 /**
@@ -87,9 +87,9 @@ export function getOptimizedPaths(originalImagePath) {
     if (cacheFilename === filename) {
       // Organize outputs by variant and format
       const organized = {
-        thumbnail: {jpeg: null, webp: null, avif: null},
-        medium: {webp: null, avif: null},
-        fullSize: {webp: null, avif: null},
+        thumbnail: { jpeg: null, webp: null, avif: null },
+        medium: { webp: null, avif: null },
+        fullSize: { webp: null, avif: null },
       };
 
       for (const output of entry.outputs || []) {

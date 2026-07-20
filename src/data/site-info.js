@@ -4,7 +4,12 @@
 
 'use strict';
 
-import {SITE_DEFAULT_IMAGE_PATH, SITE_NAME, SITE_SOCIAL_HANDLES, SITE_URL,} from '../constants/site.js';
+import {
+  SITE_DEFAULT_IMAGE_PATH,
+  SITE_NAME,
+  SITE_SOCIAL_HANDLES,
+  SITE_URL,
+} from '../constants/site.js';
 
 export const siteInfo = {
   title: {
@@ -36,8 +41,8 @@ export const siteInfo = {
 };
 
 export const navigation = {
-  works: {ru: 'Работы', en: 'Works'},
-  about: {ru: 'Немного обо мне', en: 'About Me'},
-  blog: {ru: 'Блог', en: 'Blog'},
-  contacts: {ru: 'Контакты', en: 'Contacts'},
+  works: { ru: 'Работы', en: 'Works' },
+  about: { ru: 'Немного обо мне', en: 'About Me' },
+  blog: { ru: 'Блог', en: 'Blog' },
+  contacts: { ru: 'Контакты', en: 'Contacts' },
 };

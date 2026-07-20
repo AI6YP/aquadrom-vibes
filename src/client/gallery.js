@@ -65,7 +65,7 @@
             }
           });
         },
-        {rootMargin: '50px'},
+        { rootMargin: '50px' },
       );
 
       document.querySelectorAll('img[data-src]').forEach((img) => {

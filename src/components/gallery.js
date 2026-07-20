@@ -4,9 +4,9 @@
 
 'use strict';
 
-import {galleryItems} from '../data/index.js';
-import {createPictureElement} from '../utils/responsive-images.js';
-import {getTranslator} from '../i18n/index.js';
+import { galleryItems } from '../data/index.js';
+import { createPictureElement } from '../utils/responsive-images.js';
+import { getTranslator } from '../i18n/index.js';
 
 /**
  * Create gallery grid item
@@ -14,7 +14,7 @@ import {getTranslator} from '../i18n/index.js';
 export function createGalleryItem(item, lang = 'ru') {
   const t = getTranslator(lang);
   const soldOverlay = item.sold
-    ? ['div', {class: 'sold-badge'}, t('gallery.sold')]
+    ? ['div', { class: 'sold-badge' }, t('gallery.sold')]
     : null;
 
   // Use responsive picture element with optimized images
@@ -38,20 +38,20 @@ export function createGalleryItem(item, lang = 'ru') {
     },
     [
       'div',
-      {class: 'gallery-item-inner'},
+      { class: 'gallery-item-inner' },
       thumbnailImage,
       [
         'div',
-        {class: 'gallery-overlay'},
+        { class: 'gallery-overlay' },
         [
           'div',
-          {class: 'gallery-info'},
-          ['h3', {class: 'gallery-title'}, item.title[lang]],
+          { class: 'gallery-info' },
+          ['h3', { class: 'gallery-title' }, item.title[lang]],
           [
             'p',
-            {class: 'gallery-meta'},
-            ['span', {class: 'gallery-size'}, item.size],
-            ['span', {class: 'gallery-year'}, item.year.toString()],
+            { class: 'gallery-meta' },
+            ['span', { class: 'gallery-size' }, item.size],
+            ['span', { class: 'gallery-year' }, item.year.toString()],
           ],
         ],
         soldOverlay,
@@ -67,12 +67,14 @@ export function createCategoryFilter(lang = 'ru') {
   const t = getTranslator(lang);
 
   // Dynamically get categories from gallery items
-  const uniqueCategories = [...new Set(galleryItems.map((item) => item.category))];
+  const uniqueCategories = [
+    ...new Set(galleryItems.map((item) => item.category)),
+  ];
 
   // Map category slugs to i18n keys
   const categoryToI18nKey = {
-    'seascape': 'seascape',
-    'landscape': 'landscape',
+    seascape: 'seascape',
+    landscape: 'landscape',
     'still-life': 'stillLife',
   };
 
@@ -88,26 +90,24 @@ export function createCategoryFilter(lang = 'ru') {
       t('categories.all'),
     ],
     // Add buttons for each category that exists in gallery items
-    ...uniqueCategories
-      .sort()
-      .map((categorySlug) => {
-        const i18nKey = categoryToI18nKey[categorySlug] || categorySlug;
-        return [
-          'button',
-          {
-            class: 'filter-btn',
-            'data-category': categorySlug,
-          },
-          t(`categories.${i18nKey}`),
-        ];
-      }),
+    ...uniqueCategories.sort().map((categorySlug) => {
+      const i18nKey = categoryToI18nKey[categorySlug] || categorySlug;
+      return [
+        'button',
+        {
+          class: 'filter-btn',
+          'data-category': categorySlug,
+        },
+        t(`categories.${i18nKey}`),
+      ];
+    }),
   ];
 
   return [
     'div',
-    {class: 'gallery-filters'},
-    ['h2', {class: 'filters-title'}, t('gallery.categories')],
-    ['div', {class: 'filter-buttons'}, ...buttons],
+    { class: 'gallery-filters' },
+    ['h2', { class: 'filters-title' }, t('gallery.categories')],
+    ['div', { class: 'filter-buttons' }, ...buttons],
   ];
 }
 
@@ -121,19 +121,19 @@ export function createYearFilter(lang = 'ru') {
   );
 
   const options = [
-    ['option', {value: 'all'}, t('gallery.allYears')],
+    ['option', { value: 'all' }, t('gallery.allYears')],
     ...years.map((year) => [
       'option',
-      {value: year.toString()},
+      { value: year.toString() },
       year.toString(),
     ]),
   ];
 
   return [
     'div',
-    {class: 'year-filter'},
-    ['label', {for: 'year-select'}, t('gallery.year')],
-    ['select', {id: 'year-select', class: 'year-select'}, ...options],
+    { class: 'year-filter' },
+    ['label', { for: 'year-select' }, t('gallery.year')],
+    ['select', { id: 'year-select', class: 'year-select' }, ...options],
   ];
 }
 
@@ -146,45 +146,45 @@ export function createGallery(lang = 'ru') {
 
   return [
     'section',
-    {id: 'gallery', class: 'gallery-section'},
+    { id: 'gallery', class: 'gallery-section' },
     [
       'div',
-      {class: 'container'},
+      { class: 'container' },
       [
         'div',
-        {class: 'gallery-header'},
+        { class: 'gallery-header' },
         createCategoryFilter(lang),
         createYearFilter(lang),
       ],
-      ['div', {class: 'gallery-grid', id: 'gallery-grid'}, ...items],
+      ['div', { class: 'gallery-grid', id: 'gallery-grid' }, ...items],
       [
         'div',
-        {id: 'lightbox', class: 'lightbox'},
-        ['div', {class: 'lightbox-overlay'}],
+        { id: 'lightbox', class: 'lightbox' },
+        ['div', { class: 'lightbox-overlay' }],
         [
           'div',
-          {class: 'lightbox-content'},
+          { class: 'lightbox-content' },
           [
             'button',
-            {class: 'lightbox-close', 'aria-label': t('aria.close')},
+            { class: 'lightbox-close', 'aria-label': t('aria.close') },
             '×',
           ],
           [
             'button',
-            {class: 'lightbox-prev', 'aria-label': t('aria.previous')},
+            { class: 'lightbox-prev', 'aria-label': t('aria.previous') },
             '‹',
           ],
           [
             'button',
-            {class: 'lightbox-next', 'aria-label': t('aria.next')},
+            { class: 'lightbox-next', 'aria-label': t('aria.next') },
             '›',
           ],
-          ['img', {class: 'lightbox-image', src: '', alt: ''}],
+          ['img', { class: 'lightbox-image', src: '', alt: '' }],
           [
             'div',
-            {class: 'lightbox-info'},
-            ['h3', {class: 'lightbox-title'}],
-            ['p', {class: 'lightbox-meta'}],
+            { class: 'lightbox-info' },
+            ['h3', { class: 'lightbox-title' }],
+            ['p', { class: 'lightbox-meta' }],
           ],
         ],
       ],
@@ -198,7 +198,7 @@ export function createGallery(lang = 'ru') {
 export function createGalleryDataScript() {
   return [
     'script',
-    {type: 'application/json', id: 'gallery-data'},
+    { type: 'application/json', id: 'gallery-data' },
     JSON.stringify(galleryItems),
   ];
 }

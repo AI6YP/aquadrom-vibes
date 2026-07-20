@@ -4,8 +4,8 @@
 
 'use strict';
 
-import {blogPosts} from '../data/index.js';
-import {getTranslator} from '../i18n/index.js';
+import { blogPosts } from '../data/index.js';
+import { getTranslator } from '../i18n/index.js';
 
 /**
  * Create blog post card
@@ -24,27 +24,27 @@ export function createBlogPostCard(post, lang = 'ru') {
 
   return [
     'article',
-    {class: 'blog-post-card', 'data-post-id': post.id},
+    { class: 'blog-post-card', 'data-post-id': post.id },
     post.image
       ? [
-        'div',
-        {class: 'post-image'},
-        [
-          'img',
-          {
-            src: post.image,
-            alt: post.title[lang],
-            loading: 'lazy',
-          },
-        ],
-      ]
+          'div',
+          { class: 'post-image' },
+          [
+            'img',
+            {
+              src: post.image,
+              alt: post.title[lang],
+              loading: 'lazy',
+            },
+          ],
+        ]
       : null,
     [
       'div',
-      {class: 'post-content'},
-      ['time', {class: 'post-date', datetime: post.date}, dateStr],
-      ['h3', {class: 'post-title'}, post.title[lang]],
-      ['p', {class: 'post-excerpt'}, post.excerpt[lang]],
+      { class: 'post-content' },
+      ['time', { class: 'post-date', datetime: post.date }, dateStr],
+      ['h3', { class: 'post-title' }, post.title[lang]],
+      ['p', { class: 'post-excerpt' }, post.excerpt[lang]],
     ],
   ].filter(Boolean);
 }
@@ -58,12 +58,12 @@ export function createBlog(lang = 'ru') {
 
   return [
     'section',
-    {id: 'blog', class: 'blog-section'},
+    { id: 'blog', class: 'blog-section' },
     [
       'div',
-      {class: 'container'},
-      ['h2', {class: 'section-title'}, t('blog.title')],
-      ['div', {class: 'blog-grid'}, ...posts],
+      { class: 'container' },
+      ['h2', { class: 'section-title' }, t('blog.title')],
+      ['div', { class: 'blog-grid' }, ...posts],
     ],
   ];
 }
@@ -77,14 +77,14 @@ export function createAbout(lang = 'ru') {
 
   return [
     'section',
-    {id: 'about', class: 'about-section'},
+    { id: 'about', class: 'about-section' },
     [
       'div',
-      {class: 'container'},
-      ['h2', {class: 'section-title'}, t('about.title')],
+      { class: 'container' },
+      ['h2', { class: 'section-title' }, t('about.title')],
       [
         'div',
-        {class: 'about-content'},
+        { class: 'about-content' },
         ...textParagraphs.map((p) => ['p', p]),
       ],
     ],
@@ -99,19 +99,19 @@ export function createContacts(lang = 'ru') {
 
   return [
     'section',
-    {id: 'contacts', class: 'contacts-section'},
+    { id: 'contacts', class: 'contacts-section' },
     [
       'div',
-      {class: 'container'},
-      ['h2', {class: 'section-title'}, t('contacts.title')],
+      { class: 'container' },
+      ['h2', { class: 'section-title' }, t('contacts.title')],
       [
         'div',
-        {class: 'contacts-content'},
+        { class: 'contacts-content' },
         [
           'div',
-          {class: 'contact-item'},
+          { class: 'contact-item' },
           ['h3', t('contacts.email')],
-          ['a', {href: 'mailto:info@aquadrom.art'}, 'info@aquadrom.art'],
+          ['a', { href: 'mailto:info@aquadrom.art' }, 'info@aquadrom.art'],
         ],
       ],
     ],

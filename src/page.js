@@ -5,15 +5,22 @@
 'use strict';
 
 import onml from 'onml';
-import {createHeader} from './components/header.js';
-import {createGallery, createGalleryDataScript,} from './components/gallery.js';
-import {createAbout, createBlog, createContacts} from './components/blog.js';
-import {createFooter} from './components/footer.js';
-import {createSEOTags} from './seo/meta-tags.js';
-import {createStructuredData} from './seo/structured-data.js';
-import {getTranslator, initI18n} from './i18n/index.js';
-import {translations} from './i18n/translations.js';
-import {CLIENT_SCRIPT_PATHS, FONT_RESOURCES, LANGUAGE_LOCALES,} from './constants/site.js';
+import { createHeader } from './components/header.js';
+import {
+  createGallery,
+  createGalleryDataScript,
+} from './components/gallery.js';
+import { createAbout, createBlog, createContacts } from './components/blog.js';
+import { createFooter } from './components/footer.js';
+import { createSEOTags } from './seo/meta-tags.js';
+import { createStructuredData } from './seo/structured-data.js';
+import { getTranslator, initI18n } from './i18n/index.js';
+import { translations } from './i18n/translations.js';
+import {
+  CLIENT_SCRIPT_PATHS,
+  FONT_RESOURCES,
+  LANGUAGE_LOCALES,
+} from './constants/site.js';
 
 /**
  * Create complete HTML page
@@ -30,7 +37,7 @@ export async function createPage(lang = 'ru') {
   const langAttr = LANGUAGE_LOCALES[language] ?? LANGUAGE_LOCALES.ru;
   const title = t('meta.pageTitle');
   const fontPreconnectLinks = FONT_RESOURCES.preconnect.map((href) => {
-    const attrs = {rel: 'preconnect', href};
+    const attrs = { rel: 'preconnect', href };
     if (href.includes('gstatic')) {
       attrs.crossorigin = '';
     }
@@ -40,13 +47,13 @@ export async function createPage(lang = 'ru') {
   // Build page structure using ONML
   const page = [
     'html',
-    {lang: langAttr},
+    { lang: langAttr },
     [
       'head',
-      ['meta', {charset: 'UTF-8'}],
+      ['meta', { charset: 'UTF-8' }],
       [
         'meta',
-        {name: 'viewport', content: 'width=device-width, initial-scale=1.0'},
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
       ],
       ['title', title],
 
@@ -55,11 +62,11 @@ export async function createPage(lang = 'ru') {
 
       // Fonts
       ...fontPreconnectLinks,
-      ['link', {rel: 'stylesheet', href: FONT_RESOURCES.stylesheet}],
+      ['link', { rel: 'stylesheet', href: FONT_RESOURCES.stylesheet }],
 
       // Styles
-      ['link', {rel: 'stylesheet', href: '/styles/main.css'}],
-      ['link', {rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg'}],
+      ['link', { rel: 'stylesheet', href: '/styles/main.css' }],
+      ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
 
       // Structured data
       ...createStructuredData(lang),
@@ -69,7 +76,7 @@ export async function createPage(lang = 'ru') {
       createHeader(language, 'works'),
       [
         'main',
-        {class: 'main-content'},
+        { class: 'main-content' },
         createGallery(language),
         createBlog(language),
         createAbout(language),
@@ -77,8 +84,8 @@ export async function createPage(lang = 'ru') {
       ],
       createFooter(language),
       createGalleryDataScript(),
-      ['script', {src: CLIENT_SCRIPT_PATHS.header, defer: true}],
-      ['script', {src: CLIENT_SCRIPT_PATHS.gallery, defer: true}],
+      ['script', { src: CLIENT_SCRIPT_PATHS.header, defer: true }],
+      ['script', { src: CLIENT_SCRIPT_PATHS.gallery, defer: true }],
     ],
   ];
 

@@ -4,10 +4,10 @@
 
 'use strict';
 
-import {createServer} from 'http';
-import {existsSync, readFileSync, statSync} from 'fs';
-import {dirname, extname, join} from 'path';
-import {fileURLToPath} from 'url';
+import { createServer } from 'http';
+import { existsSync, readFileSync, statSync } from 'fs';
+import { dirname, extname, join } from 'path';
+import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const distDir = join(__dirname, '..', 'dist');
@@ -37,7 +37,7 @@ const server = createServer((req, res) => {
 
   // Check if file exists
   if (!existsSync(filePath)) {
-    res.writeHead(404, {'Content-Type': 'text/plain'});
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('404 Not Found');
     return;
   }
@@ -52,10 +52,10 @@ const server = createServer((req, res) => {
     const contentType = mimeTypes[ext] || 'text/plain';
     const content = readFileSync(filePath);
 
-    res.writeHead(200, {'Content-Type': contentType});
+    res.writeHead(200, { 'Content-Type': contentType });
     res.end(content);
   } catch (error) {
-    res.writeHead(500, {'Content-Type': 'text/plain'});
+    res.writeHead(500, { 'Content-Type': 'text/plain' });
     res.end('500 Internal Server Error');
     console.error(error);
   }

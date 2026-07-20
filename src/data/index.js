@@ -4,6 +4,6 @@
 
 'use strict';
 
-export {siteInfo, navigation} from './site-info.js';
-export {galleryItems} from './gallery-items.js';
-export {blogPosts} from './blog-posts.js';
+export { siteInfo, navigation } from './site-info.js';
+export { galleryItems } from './gallery-items.js';
+export { blogPosts } from './blog-posts.js';

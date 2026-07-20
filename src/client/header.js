@@ -38,7 +38,7 @@
         const sectionId = href.substring(1); // Remove #
         updateActiveNav(sectionId);
 
-        target.scrollIntoView({behavior: 'smooth', block: 'start'});
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     });
   });
@@ -55,7 +55,10 @@
       const sectionTop = section.offsetTop;
       const sectionHeight = section.offsetHeight;
 
-      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+      if (
+        scrollPosition >= sectionTop &&
+        scrollPosition < sectionTop + sectionHeight
+      ) {
         current = section.getAttribute('id');
       }
     });

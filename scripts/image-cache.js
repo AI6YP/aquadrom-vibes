@@ -5,8 +5,8 @@
 
 'use strict';
 
-import {existsSync, readFileSync, statSync, writeFileSync} from 'fs';
-import {createHash} from 'crypto';
+import { existsSync, readFileSync, statSync, writeFileSync } from 'fs';
+import { createHash } from 'crypto';
 
 /**
  * Load cache from file
@@ -74,7 +74,7 @@ export function getFileModTime(filePath) {
   try {
     const stats = statSync(filePath);
     return stats.mtimeMs;
-  } catch (error) {
+  } catch {
     return 0;
   }
 }
@@ -175,7 +175,7 @@ export function getCacheStats(cache) {
 export function cleanStaleEntries(cache) {
   let removed = 0;
 
-  for (const [filePath, _entry] of Object.entries(cache.images)) {
+  for (const filePath of Object.keys(cache.images)) {
     if (!existsSync(filePath)) {
       delete cache.images[filePath];
       removed++;

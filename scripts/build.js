@@ -4,11 +4,17 @@
 
 'use strict';
 
-import {copyFileSync, existsSync, mkdirSync, readdirSync, writeFileSync,} from 'fs';
-import {dirname, join} from 'path';
-import {fileURLToPath} from 'url';
-import {build} from '../src/page.js';
-import {cleanDist} from './clean.js';
+import {
+  copyFileSync,
+  existsSync,
+  mkdirSync,
+  readdirSync,
+  writeFileSync,
+} from 'fs';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+import { build } from '../src/page.js';
+import { cleanDist } from './clean.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -17,7 +23,7 @@ const distDir = join(rootDir, 'dist');
 // Create directories
 function ensureDir(dir) {
   if (!existsSync(dir)) {
-    mkdirSync(dir, {recursive: true});
+    mkdirSync(dir, { recursive: true });
   }
 }
 
@@ -28,7 +34,7 @@ function copyStatic() {
   if (existsSync(publicDir)) {
     const copyRecursive = (src, dest) => {
       ensureDir(dest);
-      const entries = readdirSync(src, {withFileTypes: true});
+      const entries = readdirSync(src, { withFileTypes: true });
 
       for (const entry of entries) {
         const srcPath = join(src, entry.name);
@@ -54,7 +60,7 @@ function copyStyles() {
   if (existsSync(srcStylesDir)) {
     const copyRecursive = (src, dest) => {
       ensureDir(dest);
-      const entries = readdirSync(src, {withFileTypes: true});
+      const entries = readdirSync(src, { withFileTypes: true });
 
       for (const entry of entries) {
         const srcPath = join(src, entry.name);
@@ -83,7 +89,7 @@ function copyClientScripts() {
   const scriptsDir = join(distDir, 'scripts');
   ensureDir(scriptsDir);
 
-  const entries = readdirSync(clientDir, {withFileTypes: true});
+  const entries = readdirSync(clientDir, { withFileTypes: true });
   entries.forEach((entry) => {
     if (entry.isFile() && entry.name.endsWith('.js')) {
       const srcPath = join(clientDir, entry.name);

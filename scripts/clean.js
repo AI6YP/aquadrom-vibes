@@ -4,9 +4,9 @@
 
 'use strict';
 
-import {existsSync, rmSync} from 'fs';
-import {dirname, join} from 'path';
-import {fileURLToPath} from 'url';
+import { existsSync, rmSync } from 'fs';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -14,7 +14,7 @@ const distDir = join(rootDir, 'dist');
 
 export function cleanDist() {
   if (existsSync(distDir)) {
-    rmSync(distDir, {recursive: true, force: true});
+    rmSync(distDir, { recursive: true, force: true });
     console.log('✓ Cleaned dist/ directory');
   } else {
     console.log('✓ dist/ directory does not exist (already clean)');

@@ -4,10 +4,10 @@
 
 'use strict';
 
-import {writeFileSync} from 'fs';
-import {dirname, join} from 'path';
-import {fileURLToPath} from 'url';
-import {blogPosts, galleryItems} from '../src/data/index.js';
+import { writeFileSync } from 'fs';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+import { blogPosts, galleryItems } from '../src/data/index.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, '..');
@@ -18,8 +18,8 @@ const baseUrl = 'https://aquadrom.art';
 const currentDate = new Date().toISOString().split('T')[0];
 
 const pages = [
-  {url: '/', priority: '1.0', changefreq: 'weekly'},
-  {url: '/en', priority: '1.0', changefreq: 'weekly'},
+  { url: '/', priority: '1.0', changefreq: 'weekly' },
+  { url: '/en', priority: '1.0', changefreq: 'weekly' },
 ];
 
 // Add gallery items

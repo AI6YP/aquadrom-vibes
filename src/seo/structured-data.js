@@ -4,9 +4,9 @@
 
 'use strict';
 
-import {blogPosts, galleryItems} from '../data/index.js';
-import {getTranslator} from '../i18n/index.js';
-import {LANGUAGE_LOCALES, SITE_NAME, SITE_URL} from '../constants/site.js';
+import { blogPosts, galleryItems } from '../data/index.js';
+import { getTranslator } from '../i18n/index.js';
+import { LANGUAGE_LOCALES, SITE_NAME, SITE_URL } from '../constants/site.js';
 
 /**
  * Create structured data (JSON-LD) for SEO
@@ -90,17 +90,17 @@ export function createStructuredData(lang = 'ru') {
   return [
     [
       'script',
-      {type: 'application/ld+json'},
+      { type: 'application/ld+json' },
       JSON.stringify(websiteSchema, null, 2),
     ],
     [
       'script',
-      {type: 'application/ld+json'},
+      { type: 'application/ld+json' },
       JSON.stringify(imageGallerySchema, null, 2),
     ],
     [
       'script',
-      {type: 'application/ld+json'},
+      { type: 'application/ld+json' },
       JSON.stringify(blogSchema, null, 2),
     ],
   ];
